@@ -6,10 +6,20 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+main {
+    position: relative;
+    top: 30px;
+}
+
 .main-header{
     width: 100%;
     background: #2ddf5c;
     padding: 8px 16px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin-bottom: 120px;
 }
 
 .main-header > div {
