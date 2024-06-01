@@ -1,7 +1,7 @@
 #product-overview {
-    background: url("freedom.png");
+    background: url("freedom.png") no-repeat border-box;
     background-size: cover;
-    background-position-y: center;
+    background-position: center;
     padding: 10px;
     width: 100%;
     height: 528px;
@@ -81,7 +81,6 @@
 
 #key-features{
     background: #ff1b68 ;
-    margin-top: 80px;
     padding: 16px;
     width: 80%;
     margin: 4% 8%; 
@@ -92,10 +91,11 @@
     margin: 32px;
 }
 
-.key-feature__list{
+.key-feature__list {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: auto;
+    text-align: center;
 }
 
 .key-feature{
