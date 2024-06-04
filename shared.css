@@ -4,6 +4,7 @@
 
 body {
     font-family: "Montserrat", sans-serif;
+    margin: 0;
 }
 
 main {
@@ -19,7 +20,6 @@ main {
     z-index: 1;
     top: 0;
     left: 0;
-    margin-bottom: 120px;
 }
 
 .main-header > div {
@@ -203,3 +203,31 @@ main {
     height: 100vh;
     background: rgba(0,0,0,0.5);
 }
+
+.mobile-nav{
+    background: rgba(255,255,255,0.91);
+}
+
+@media(max-width: 40rem) {
+    .main-nav{
+        display: none;
+    }
+    
+    .align{
+        width: 100%;
+    }
+    
+    .align a{
+        position: absolute;
+        top: 38%;
+        right: 10%;
+        vertical-align: middle;
+    }
+}
+
+@media(min-width: 40rem) {
+    .toggle-button{
+        display:none;
+    }
+}
+

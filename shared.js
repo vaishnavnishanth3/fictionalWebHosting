@@ -21,7 +21,6 @@ if (modal) {
     modalNoButton.addEventListener("click", closeModal);
 }
 
-
 function closeModal() {
     if (modal) {
         modal.classList.remove('open');
